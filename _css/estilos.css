@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
     font-size: 62.5%;
     line-height: 1.5;
@@ -20,28 +19,29 @@ body#principal {
     width: 100%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 
-
 /*cabeçalho*/
+
 div#cabecalho {
     max-width: 1024px;
     margin: .6em auto 2.6em auto;
     position: relative;
 }
 
-
-.menu li:hover a{
-    text-shadow: .1em .1em .1em rgba(255,255,255, .6);
+.menu li:hover a {
+    text-shadow: .1em .1em .1em rgba(255, 255, 255, .6);
     box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     font-size: 1.8em;
     color: #000000;
@@ -88,6 +88,8 @@ div#cabecalho {
     color: rgb(54, 116, 93);
     font-weight: bold;
 }
+
+
 /*fim cabeçalho*/
 
 .botaop {
@@ -118,7 +120,7 @@ div#cabecalho {
     padding: 10px 30px 10px 30px;
     color: #ffffff;
     font-weight: bold;
-} 
+}
 
 .artdireita input:hover {
     box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
@@ -184,10 +186,10 @@ div#cabecalho {
 
 div#tituloform {
     margin: 0 auto 60px auto;
-    width: 200px;
+    width: 400px;
 }
 
-div#tituloform h1{
+div#tituloform h1 {
     font-size: 2.8em;
 }
 
